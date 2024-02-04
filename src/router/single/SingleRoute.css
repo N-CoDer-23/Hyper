@@ -46,12 +46,8 @@
         margin-bottom: 4%;
     }
     .single__bt{
-        padding: 1.5% 5%;
-        color: #fff;
-        background: red;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
+        width: 90px;
+        height: 30px;
     }
  
 }
