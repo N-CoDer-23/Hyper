@@ -38,7 +38,7 @@
 }
 @media screen and (max-width:600px) {
     .single__img{
-        width: 60%;
+        width: 80%;
     }
     .single__route{
         grid-template-columns: 1fr;
