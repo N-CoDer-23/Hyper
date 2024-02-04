@@ -1,0 +1,144 @@
+.comment{
+    position: fixed;
+    top: 85%;
+    right: 2%;
+    z-index: 10;
+}
+.show__wrapper{
+    width: 100%;
+    height: 100vh;
+    background: #f4f4f4;
+    padding: 3% 0;
+    margin-bottom: 20%;
+}
+.show__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 8%;
+}
+.show__grid_keyboard{
+    width: 100%;
+    margin: 3% 0;
+   
+}
+.show__grid_img{
+    background: url("https://hyperx.com/cdn/shop/files/kf-1-hx3D-keycap-guild-wars-2-siege-Turtle_720x.jpg?v=1702657172") no-repeat center/cover;
+    width: 90%;
+    height: 600px;
+    
+}
+.show__grid_img2{
+    background: url("https://hyperx.com/cdn/shop/files/HX3D_MapleStory_web_banner_720x720_02_720x.jpg?v=1702460196") no-repeat center/cover;
+    width: 90%;
+    height: 100%;
+    height: 600px;
+}
+.show__grid_img2-text{
+    padding: 80% 5%;
+    height: 100px;
+    color: #fff;
+    font-size: 20px;
+}
+.show__grid_text{
+    width: 300px;
+    height: 200px;
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 1500px) {
+    .show__wrapper{
+        margin-bottom: 30%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .show__grid_img2-text{
+        padding: 110% 5%;
+    }
+    .show__wrapper{
+        margin-bottom: 40%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .show__grid_img2-text{
+        padding: 130% 5%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .show__grid{
+        display: grid;
+        grid-template-columns:  1fr;
+        padding: 0;
+    }
+    .show__grid_text{
+        width: 300px;
+        height: 150px;
+        font-size: 14px;
+    }
+    .show__wrapper{
+        width: 100%;
+        height: 250vh;
+        margin-bottom: 0%;
+    }
+    .show__grid_img{
+        width: 80%;
+        height: 500px;
+    }
+    .show__grid_img2{
+        margin-left: 20%;
+        width: 80%;
+        height: 500px;
+    }
+    .show__grid_img2-text{
+        padding: 60% 5%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .show__grid_text{
+        width: 250px;
+        height: 120px;
+        font-size: 13px;
+    }
+    .show__wrapper{
+        height: 100vh;
+        margin-bottom: 90%;
+    }
+    .show__grid_img2-text{
+        padding: 55% 5%;
+        font-size: 17px;
+    }
+    .show__grid_img{
+        height: 400px;
+    }
+    .show__grid_img2{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .show__wrapper{
+        margin-bottom: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .show__grid_img2-text{
+        padding: 80% 5%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .show__grid_text{
+        width: 250px;
+        height: 120px;
+        font-size: 13px;
+    }
+    .show__wrapper{
+        width: 100%;
+        height: 150vh;
+        margin-bottom: 60%;
+    }
+    .show__grid_img2-text{
+        padding: 100% 5%;
+        font-size: 15px;
+    }
+}

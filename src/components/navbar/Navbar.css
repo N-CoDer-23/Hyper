@@ -1,0 +1,106 @@
+.container{
+    padding: 0% 8%;
+}
+/* NAVBAR - start */
+.navbar__wrapper{
+    width: 100%;
+    height: 73px;
+}
+.navbar__logo{
+    height: 100%;
+    display: flex;
+    gap: 23px;
+    font-size: 15px;
+}
+.navbar__item{
+    display: flex;
+    gap: 50px;
+}
+.nav__item_hr{
+    border: .5px solid #ededed;
+}
+.navbar__item ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+.navbar__item-svg{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.navbar__item-svg ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+.navbar__title{
+    display: flex;
+    gap: 170px;
+   
+}
+
+.navbar__banner{
+    width: 100%;
+    height: 90vh;
+    background: url("https://hyperx.com/cdn/shop/files/HX3D_Warframe_Homepage_banner_2880x1300_b9c4595c-8887-4c8c-be0d-e55c9ec9a6f5_1944x.jpg?v=1706285962") no-repeat center/cover;
+    border-top: 1px solid #ddd;
+}
+
+
+/* NAVBAR - end */
+
+
+/* NAVBAR - MEDIA - start */
+@media screen and (max-width:1311px) {
+    .navbar__logo{
+        gap: 23px;
+        font-size: 15px;
+    }
+    .navbar__item{
+        gap: 30px;
+    }
+    .navbar__title{
+        gap: 150px;
+    }
+}
+@media screen and (max-width:1120px) {
+    .navbar__logo{
+        gap: 20px;
+        font-size: 14px;
+    }
+    .navbar__item{
+        gap: 30px;
+    }
+    .navbar__title{
+        gap: 90px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .navbar__logo{
+        font-size: 14px;
+        justify-content: space-between;
+    }
+    .navbar__item{
+        display: none;
+    }
+}
+@media screen and (max-width:900px) {
+    .navbar__banner{
+        height: 80vh;
+    }
+
+}
+@media screen and (max-width:800px) {
+    .navbar__banner{
+        background: url("https://hyperx.com/cdn/shop/files/HX3D_Warframe_Collection_720x720_c36ac45e-6526-4340-87b6-229f4ad37019_720x.jpg?v=1706278914") no-repeat center/cover;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .navbar__logo img{
+        width: 110px;
+    }
+
+}
+/* NAVBAR - MEDIA - end */
