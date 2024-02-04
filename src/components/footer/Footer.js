@@ -7,9 +7,13 @@ import { SiFampay } from "react-icons/si";
 import { FaCcVisa, FaMeta } from "react-icons/fa6";
 import { IoLogoPlaystation } from "react-icons/io5";
 import { FaCcMastercard } from "react-icons/fa6";
-
+import { useLocation } from 'react-router-dom'
 
 function Footer() {
+  const {pathname} = useLocation()
+  if(pathname.includes("product")){
+      return <></>
+  }
   return (
     <div className='footer__wrapper' >
       <div className="footer__top__title">
