@@ -22,6 +22,7 @@ function SingleRoute() {
           <h2 className='single__info'>Narxi: {oneItem?.oldprice} so'm</h2>
           <br /><br />
           <Link to={'/'}><button className='single__bt'>Home</button></Link>
+         <button className='single__bt'>Cart</button>
           
 
         </div>
